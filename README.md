@@ -32,7 +32,7 @@ A beautiful, interactive CLI tool to download videos and audio from **any platfo
 ```
 ╭──────────────────────────────────────────────────────────╮
 │                                                          │
-│  🎬 Snag — grab media from anywhere                      │
+│  🎬 Snag — grab media from anywhere                     │
 │                                                          │
 │  Paste your URL here                                     │
 │                                                          │
@@ -44,7 +44,7 @@ A beautiful, interactive CLI tool to download videos and audio from **any platfo
 ```
 ╭──────────────────────────────────────────────────────────╮
 │                                                          │
-│  ✅ Download complete!                                   │
+│  ✅ Download complete!                                  │
 │                                                          │
 │    Saved to: ./downloads/My Video Title.mp4              │
 │                                                          │
