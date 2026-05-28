@@ -10,6 +10,8 @@
 
 A beautiful, interactive CLI tool to download videos and audio from **any platform** — without watermarks, at the highest quality.
 
+🖥️ Want a desktop app instead? → [Snag Desktop](https://github.com/Verifieddanny/snag-desktop)
+
 </div>
 
 ---
@@ -181,8 +183,7 @@ snag/
 - [x] Audio extraction
 - [x] No-watermark TikTok downloads
 - [x] Homebrew formula
-- [ ] Web app + API
-- [ ] Desktop app (macOS)
+- [x] Desktop app (macOS) — [Snag Desktop](https://github.com/Verifieddanny/snag-desktop)
 - [ ] Playlist support
 - [ ] Batch downloads from file
 
@@ -216,6 +217,8 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 **Built by [Danny](https://github.com/Verifieddanny)** 🚀
 
-If Snag saved you time, give it a ⭐
+⭐ Star this repo if Snag saves you time
+
+**[CLI Version](https://github.com/Verifieddanny/snag)** · **[Desktop Version](https://github.com/Verifieddanny/snag-desktop)**
 
 </div>
