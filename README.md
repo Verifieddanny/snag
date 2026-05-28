@@ -74,9 +74,17 @@ choco install yt-dlp ffmpeg
 
 ### Install Snag
 
+### Install Snag
+
 ```bash
 # Using Go
 go install github.com/Verifieddanny/snag/cmd/snag@latest
+
+# Add Go bin to your PATH (if not already)
+echo 'export PATH=$PATH:$(go env GOPATH)/bin' >> ~/.zshrc
+source ~/.zshrc
+
+# For bash users, use ~/.bashrc instead of ~/.zshrcs
 ```
 
 ### Build from source
