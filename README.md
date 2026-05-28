@@ -44,7 +44,7 @@ A beautiful, interactive CLI tool to download videos and audio from **any platfo
 ```
 ╭──────────────────────────────────────────────────────────╮
 │                                                          │
-│  ✅ Download complete!                                  │
+│  ✅ Download complete!                                   │
 │                                                          │
 │    Saved to: ./downloads/My Video Title.mp4              │
 │                                                          │
@@ -57,41 +57,42 @@ A beautiful, interactive CLI tool to download videos and audio from **any platfo
 
 ## 🚀 Installation
 
-### Prerequisites
-
-You need `yt-dlp` and `ffmpeg` installed on your system:
+### Homebrew (Recommended)
 
 ```bash
-# macOS (Homebrew)
-brew install yt-dlp ffmpeg
-
-# Linux (apt)
-sudo apt install yt-dlp ffmpeg
-
-# Windows (Chocolatey)
-choco install yt-dlp ffmpeg
+brew install Verifieddanny/tap/snag
 ```
 
-### Install Snag
+That's it. Homebrew handles `yt-dlp` and `ffmpeg` as dependencies.
 
-### Install Snag
+### Using Go
 
 ```bash
-# Using Go
 go install github.com/Verifieddanny/snag/cmd/snag@latest
 
 # Add Go bin to your PATH (if not already)
 echo 'export PATH=$PATH:$(go env GOPATH)/bin' >> ~/.zshrc
 source ~/.zshrc
-
-# For bash users, use ~/.bashrc instead of ~/.zshrcs
+# For bash users, use ~/.bashrc instead of ~/.zshrc
 ```
+
+> **Note:** You'll also need `yt-dlp` and `ffmpeg` installed separately:
+> ```bash
+> # macOS
+> brew install yt-dlp ffmpeg
+>
+> # Linux
+> sudo apt install yt-dlp ffmpeg
+>
+> # Windows
+> choco install yt-dlp ffmpeg
+> ```
 
 ### Build from source
 
 ```bash
 git clone https://github.com/Verifieddanny/snag.git
-cd snag/snag-cli
+cd snag
 go build -o bin/snag ./cmd/snag/
 ```
 
@@ -158,7 +159,7 @@ snag -url="https://vt.tiktok.com/ZSxV8G3Lp/"
 ## 🏗️ Project Structure
 
 ```
-snag-cli/
+snag/
 ├── cmd/
 │   └── snag/
 │       ├── main.go            # Entry point & flag mode
@@ -179,9 +180,9 @@ snag-cli/
 - [x] Quality selection
 - [x] Audio extraction
 - [x] No-watermark TikTok downloads
+- [x] Homebrew formula
 - [ ] Web app + API
 - [ ] Desktop app (macOS)
-- [ ] Homebrew formula
 - [ ] Playlist support
 - [ ] Batch downloads from file
 
@@ -194,7 +195,7 @@ Contributions are welcome! Feel free to open issues or submit PRs.
 ```bash
 # Clone the repo
 git clone https://github.com/Verifieddanny/snag.git
-cd snag/snag-cli
+cd snag
 
 # Install dependencies
 go mod tidy
